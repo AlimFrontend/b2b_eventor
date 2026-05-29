@@ -68,15 +68,26 @@ git push -u origin main
 
 ### GitHub Pages (бесплатный URL для HH)
 
-1. Создайте репозиторий на GitHub (пустой, без README).
-2. Выполните команды выше.
-3. **Settings → Pages → Build and deployment:** Source = **GitHub Actions**.
-4. После push workflow `.github/workflows/pages.yml` опубликует сайт.
-5. URL будет вида: `https://ВАШ_ЛОГИН.github.io/eventflow-demo/`
+1. Создайте репозиторий на GitHub (пустой, без README).  
+2. Выполните команды выше.  
+3. **Обязательно до первого деплоя:** откройте репозиторий → **Settings → Pages** → в блоке **Build and deployment** выберите **Source: GitHub Actions** (не «Deploy from branch»).  
+4. **Actions** → workflow **Deploy to GitHub Pages** → **Re-run all jobs** (или сделайте новый `git push`).  
+5. URL будет вида: `https://ВАШ_ЛОГИН.github.io/ИМЯ-РЕПО/`
 
-### Альтернатива без Actions
+#### Ошибка `Get Pages site failed` / `Not Found`
 
-**Settings → Pages → Deploy from branch → `main` / `/ (root)`** — достаточно `index.html` в корне.
+Это значит, что **Pages ещё не включены** или источник не **GitHub Actions**.
+
+**Исправление (2 минуты):**
+1. **Settings → Pages**  
+2. **Build and deployment → Source:** **GitHub Actions**  
+3. Если пункта нет — сначала сделайте репозиторий **Public** (для бесплатного Pages на личном аккаунте).  
+4. **Actions** → упавший run → **Re-run all jobs**
+
+### Альтернатива без Actions (проще)
+
+**Settings → Pages → Deploy from branch → Branch `main` → Folder `/ (root)`** → Save.  
+Workflow можно не использовать — достаточно `index.html` в корне. Сайт обновится через 1–2 минуты после push.
 
 ### Netlify / Vercel
 
