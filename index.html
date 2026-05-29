@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EventFlow — B2B-платформа для организации корпоративных мероприятий: от выездных команд до масштабных annual events.">
+  <title>EventFlow — корпоративные мероприятия под ключ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="site-header" data-editable="header">
+    <div class="container site-header__inner">
+      <a href="#" class="logo" aria-label="EventFlow — на главную">
+        <span class="logo__mark" aria-hidden="true"></span>
+        <span class="logo__text">EventFlow</span>
+      </a>
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Открыть меню">
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Основная навигация">
+        <ul class="site-nav__list">
+          <li><a href="#benefits">Преимущества</a></li>
+          <li><a href="#how">Как работает</a></li>
+          <li><a href="#pricing">Тарифы</a></li>
+          <li><a href="#cases">Кейсы</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <a href="#cta" class="btn btn--primary site-nav__cta">Запросить смету</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Section 1: Hero -->
+    <section class="hero section" id="hero" data-section="hero" data-editable="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">B2B · Корпоративные мероприятия</p>
+          <h1 class="hero__title">Организуем события для команд — от офсайта до annual conference</h1>
+          <p class="hero__lead">Единая платформа: площадки, подрядчики, бюджет и таймлайн в одном кабинете. Сокращаем согласования с 3 недель до 5 дней.</p>
+          <div class="hero__actions">
+            <a href="#cta" class="btn btn--primary btn--lg">Получить предложение</a>
+            <a href="#cases" class="btn btn--ghost btn--lg">Смотреть кейсы</a>
+          </div>
+          <ul class="hero__stats" aria-label="Ключевые показатели">
+            <li><strong data-editable="stat-1-value">240+</strong><span data-editable="stat-1-label">мероприятий в год</span></li>
+            <li><strong data-editable="stat-2-value">98%</strong><span data-editable="stat-2-label">событий в срок</span></li>
+            <li><strong data-editable="stat-3-value">12</strong><span data-editable="stat-3-label">стран Европы</span></li>
+          </ul>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero-card hero-card--primary">
+            <span class="hero-card__label">Следующий этап</span>
+            <p class="hero-card__title">Team Offsite · Лиссабон</p>
+            <p class="hero-card__meta">120 участников · 3 дня</p>
+          </div>
+          <div class="hero-card hero-card--secondary">
+            <span class="hero-card__label">Бюджет</span>
+            <p class="hero-card__title">€ 84 200</p>
+            <p class="hero-card__meta">в рамках лимита</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Benefits -->
+    <section class="section section--alt" id="benefits" data-section="benefits" data-editable="benefits">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Преимущества</p>
+          <h2>Почему HR и event-менеджеры выбирают EventFlow</h2>
+          <p class="section-header__lead">Потоковая работа с подрядчиками без хаоса в чатах и таблицах.</p>
+        </header>
+        <ul class="card-grid card-grid--3">
+          <li class="feature-card" data-block="benefit-card">
+            <div class="feature-card__icon" aria-hidden="true">01</div>
+            <h3 class="feature-card__title" data-editable="benefit-1-title">Один кабинет вместо 15 таблиц</h3>
+            <p class="feature-card__text" data-editable="benefit-1-text">Бриф, смета, договоры и статусы задач — в едином трекере. Менеджер клиента меняет тексты и даты без разработчика.</p>
+          </li>
+          <li class="feature-card" data-block="benefit-card">
+            <div class="feature-card__icon" aria-hidden="true">02</div>
+            <h3 class="feature-card__title" data-editable="benefit-2-title">Проверенная сеть площадок</h3>
+            <p class="feature-card__text" data-editable="benefit-2-text">400+ площадок с рейтингом и SLA. Фильтр по вместимости, AV-оборудованию и доступности для hybrid-формата.</p>
+          </li>
+          <li class="feature-card" data-block="benefit-card">
+            <div class="feature-card__icon" aria-hidden="true">03</div>
+            <h3 class="feature-card__title" data-editable="benefit-3-title">Прозрачный бюджет в реальном времени</h3>
+            <p class="feature-card__text" data-editable="benefit-3-text">Каждая статья расходов согласуется до оплаты. Алерты при 80% и 95% лимита — без сюрпризов после event day.</p>
+          </li>
+          <li class="feature-card" data-block="benefit-card">
+            <div class="feature-card__icon" aria-hidden="true">04</div>
+            <h3 class="feature-card__title" data-editable="benefit-4-title">On-site координатор 24/7</h3>
+            <p class="feature-card__text" data-editable="benefit-4-text">Команда на площадке в день мероприятия: регистрация, кейтеринг, технический райдер, экстренные замены.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section 3: How it works -->
+    <section class="section" id="how" data-section="how-it-works" data-editable="how">
+      <div class="container">
+        <header class="section-header section-header--center">
+          <p class="eyebrow">Как работает</p>
+          <h2>От брифа до отчёта за 3 шага</h2>
+        </header>
+        <ol class="steps">
+          <li class="step" data-block="step-card">
+            <span class="step__num" aria-hidden="true">1</span>
+            <h3 class="step__title" data-editable="step-1-title">Бриф и смета за 48 часов</h3>
+            <p class="step__text" data-editable="step-1-text">Заполняете шаблон: формат, город, даты, число гостей. Получаете 2–3 сценария с ценой и таймлайном.</p>
+          </li>
+          <li class="step" data-block="step-card">
+            <span class="step__num" aria-hidden="true">2</span>
+            <h3 class="step__title" data-editable="step-2-title">Согласование и бронирование</h3>
+            <p class="step__text" data-editable="step-2-text">Выбираете площадку и пакет услуг. Мы бронируем, подписываем договоры и ведём коммуникацию с подрядчиками.</p>
+          </li>
+          <li class="step" data-block="step-card">
+            <span class="step__num" aria-hidden="true">3</span>
+            <h3 class="step__title" data-editable="step-3-title">Проведение и post-event отчёт</h3>
+            <p class="step__text" data-editable="step-3-text">День X под контролем координатора. После события — финансовый отчёт, NPS гостей и рекомендации на следующий цикл.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Section 4: Pricing -->
+    <section class="section section--alt" id="pricing" data-section="pricing" data-editable="pricing">
+      <div class="container">
+        <header class="section-header section-header--center">
+          <p class="eyebrow">Тарифы</p>
+          <h2>Пакеты под размер команды</h2>
+          <p class="section-header__lead">Комиссия платформы включена. Масштабируем без скрытых доплат.</p>
+        </header>
+        <ul class="pricing-grid">
+          <li class="pricing-card" data-block="pricing-card">
+            <h3 class="pricing-card__name" data-editable="plan-1-name">Start</h3>
+            <p class="pricing-card__price"><span data-editable="plan-1-price">от €2 400</span><small>/ событие</small></p>
+            <p class="pricing-card__desc" data-editable="plan-1-desc">До 30 участников · 1 день · 1 город</p>
+            <ul class="pricing-card__features">
+              <li>Шаблонный бриф и смета</li>
+              <li>3 площадки на выбор</li>
+              <li>Email-поддержка</li>
+            </ul>
+            <a href="#cta" class="btn btn--outline btn--block">Выбрать Start</a>
+          </li>
+          <li class="pricing-card pricing-card--featured" data-block="pricing-card">
+            <span class="pricing-card__badge">Популярный</span>
+            <h3 class="pricing-card__name" data-editable="plan-2-name">Business</h3>
+            <p class="pricing-card__price"><span data-editable="plan-2-price">от €8 900</span><small>/ событие</small></p>
+            <p class="pricing-card__desc" data-editable="plan-2-desc">До 150 участников · multi-day · hybrid</p>
+            <ul class="pricing-card__features">
+              <li>Выделенный event-менеджер</li>
+              <li>On-site координатор</li>
+              <li>Бюджетный дашборд и алерты</li>
+              <li>Интеграция с HRIS / Slack</li>
+            </ul>
+            <a href="#cta" class="btn btn--primary btn--block">Выбрать Business</a>
+          </li>
+          <li class="pricing-card" data-block="pricing-card">
+            <h3 class="pricing-card__name" data-editable="plan-3-name">Enterprise</h3>
+            <p class="pricing-card__price"><span data-editable="plan-3-price">индивидуально</span></p>
+            <p class="pricing-card__desc" data-editable="plan-3-desc">500+ гостей · annual · несколько стран</p>
+            <ul class="pricing-card__features">
+              <li>SLA и выделенная команда</li>
+              <li>Кастомные процессы согласования</li>
+              <li>API и white-label кабинет</li>
+            </ul>
+            <a href="#cta" class="btn btn--outline btn--block">Связаться с sales</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section 5: Cases -->
+    <section class="section" id="cases" data-section="cases" data-editable="cases">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Кейсы</p>
+          <h2>Результаты клиентов</h2>
+        </header>
+        <ul class="case-grid">
+          <li class="case-card" data-block="case-card">
+            <p class="case-card__tag" data-editable="case-1-tag">FinTech · Annual Summit</p>
+            <h3 class="case-card__title" data-editable="case-1-title">450 участников, 2 города, 0 срывов тайминга</h3>
+            <p class="case-card__text" data-editable="case-1-text">Сократили цикл согласований с 21 до 7 дней. Экономия бюджета 14% за счёт пакетных ставок площадок.</p>
+            <dl class="case-card__metrics">
+              <div><dt>NPS гостей</dt><dd data-editable="case-1-m1">72</dd></div>
+              <div><dt>Дней до event</dt><dd data-editable="case-1-m2">34</dd></div>
+            </dl>
+          </li>
+          <li class="case-card" data-block="case-card">
+            <p class="case-card__tag" data-editable="case-2-tag">IT · Team Offsite</p>
+            <h3 class="case-card__title" data-editable="case-2-title">120 человек в Португалии за 18 дней</h3>
+            <p class="case-card__text" data-editable="case-2-text">Полный цикл: перелёты, отель, программа, вечерняя программа. Клиент правил тексты в кабинете без правок вёрстки.</p>
+            <dl class="case-card__metrics">
+              <div><dt>Экономия времени HR</dt><dd data-editable="case-2-m1">60%</dd></div>
+              <div><dt>Заявок на повтор</dt><dd data-editable="case-2-m2">100%</dd></div>
+            </dl>
+          </li>
+          <li class="case-card case-card--accent" data-block="case-card">
+            <p class="case-card__tag" data-editable="case-3-tag">Retail · Roadshow</p>
+            <h3 class="case-card__title" data-editable="case-3-title">8 городов за 6 недель</h3>
+            <p class="case-card__text" data-editable="case-3-text">Единый шаблон страницы регистрации и брендбук — клонирование под каждый город за 2 часа (потоковая модель).</p>
+            <dl class="case-card__metrics">
+              <div><dt>Страниц/мес эквивалент</dt><dd data-editable="case-3-m1">32</dd></div>
+              <div><dt>Мин/страница</dt><dd data-editable="case-3-m2">~35</dd></div>
+            </dl>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section 6: FAQ -->
+    <section class="section section--alt" id="faq" data-section="faq" data-editable="faq">
+      <div class="container container--narrow">
+        <header class="section-header section-header--center">
+          <p class="eyebrow">FAQ</p>
+          <h2>Частые вопросы</h2>
+        </header>
+        <div class="faq-list" role="list">
+          <details class="faq-item" data-block="faq-item">
+            <summary class="faq-item__question" data-editable="faq-1-q">Можно ли менять контент на лендинге без разработчика?</summary>
+            <p class="faq-item__answer" data-editable="faq-1-a">Да. Все ключевые блоки вынесены в редактируемые зоны (аналог виджетов Elementor). Менеджер меняет заголовки, тексты и изображения в админке.</p>
+          </details>
+          <details class="faq-item" data-block="faq-item">
+            <summary class="faq-item__question" data-editable="faq-2-q">Работаете ли вы с hybrid и онлайн-форматами?</summary>
+            <p class="faq-item__answer" data-editable="faq-2-a">Да. Подключаем стриминг, breakout-залы и регистрацию участников. Технический райдер согласуем до бронирования площадки.</p>
+          </details>
+          <details class="faq-item" data-block="faq-item">
+            <summary class="faq-item__question" data-editable="faq-3-q">Как быстро получить первую смету?</summary>
+            <p class="faq-item__answer" data-editable="faq-3-a">Стандартный бриф — 48 часов. Срочные запросы (до 30 гостей, 1 город) — от 24 часов при заполненном шаблоне.</p>
+          </details>
+          <details class="faq-item" data-block="faq-item">
+            <summary class="faq-item__question" data-editable="faq-4-q">Какие интеграции поддерживаете?</summary>
+            <p class="faq-item__answer" data-editable="faq-4-a">Slack, Microsoft Teams, Google Calendar, SAP Concur (расходы), HRIS по API. Для Enterprise — кастомные вебхуки.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7: Final CTA -->
+    <section class="section cta-section" id="cta" data-section="cta" data-editable="cta">
+      <div class="container">
+        <div class="cta-box">
+          <h2 class="cta-box__title" data-editable="cta-title">Готовы спланировать следующее событие?</h2>
+          <p class="cta-box__lead" data-editable="cta-lead">Оставьте контакты — пришлём 2 сценария с ориентировочной сметой в течение 2 рабочих дней.</p>
+          <form class="cta-form" action="#" method="post" novalidate>
+            <div class="cta-form__row">
+              <label class="sr-only" for="name">Имя</label>
+              <input type="text" id="name" name="name" placeholder="Имя" required autocomplete="name">
+              <label class="sr-only" for="company">Компания</label>
+              <input type="text" id="company" name="company" placeholder="Компания" required autocomplete="organization">
+            </div>
+            <div class="cta-form__row">
+              <label class="sr-only" for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Рабочий email" required autocomplete="email">
+              <button type="submit" class="btn btn--primary btn--lg">Запросить смету</button>
+            </div>
+            <p class="cta-form__note">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Section 8: Footer -->
+  <footer class="site-footer" data-section="footer" data-editable="footer">
+    <div class="container site-footer__grid">
+      <div class="site-footer__brand">
+        <a href="#" class="logo logo--footer">
+          <span class="logo__mark" aria-hidden="true"></span>
+          <span class="logo__text">EventFlow</span>
+        </a>
+        <p class="site-footer__tagline" data-editable="footer-tagline">B2B-платформа корпоративных мероприятий. Париж · Берлин · удалённо.</p>
+      </div>
+      <nav class="site-footer__nav" aria-label="Дополнительные ссылки">
+        <div>
+          <h3 class="site-footer__heading">Продукт</h3>
+          <ul>
+            <li><a href="#benefits">Возможности</a></li>
+            <li><a href="#pricing">Тарифы</a></li>
+            <li><a href="#cases">Кейсы</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="site-footer__heading">Компания</h3>
+          <ul>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Карьера</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="site-footer__heading">Правовое</h3>
+          <ul>
+            <li><a href="#">Политика конфиденциальности</a></li>
+            <li><a href="#">Условия использования</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container site-footer__bottom">
+      <p>&copy; <span id="year"></span> EventFlow. Демо-проект портфолио.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
